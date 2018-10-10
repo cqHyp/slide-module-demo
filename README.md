@@ -9,10 +9,10 @@
 举例div2为滑动模块，必需是相对于浏览器的绝对定位
 
     .slide-wrapper {
-		width: 60px;
-		height: 60px;
-		border-radius: 50%;
-		border: 1px solid rgba(0, 0, 0, 0.1);
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 1px solid rgba(0, 0, 0, 0.1);
 	position: fixed;
 	right: 10px;
 	bottom: 30%;
