@@ -3,7 +3,7 @@
 
 	<div id="demo">
 	    <div id="div2" class="slide-wrapper">
-				<img src="http://cqhpoldi.com/alien-5.png"/>
+		<img src="http://cqhpoldi.com/alien-5.png"/>
 	    </div>
 	</div>
 举例div2为滑动模块，必需是相对于浏览器的绝对定位
