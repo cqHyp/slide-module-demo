@@ -3,20 +3,20 @@
 
 	<div id="demo">
 	    <div id="div2" class="slide-wrapper">
-		    <img src="http://cqhpoldi.com/alien-5.png"/>
-		</div>
+			<img src="http://cqhpoldi.com/alien-5.png"/>
+	    </div>
 	</div>
 举例div2为滑动模块，必需是相对于浏览器的绝对定位
 
     .slide-wrapper {
-	    width: 60px;
+		width: 60px;
 		height: 60px;
 		border-radius: 50%;
 		border: 1px solid rgba(0, 0, 0, 0.1);
 		position: fixed;
 		right: 10px;
 		bottom: 30%;
-	}
+     }
 **js** 代码如下:
 
 1.引入js
@@ -31,6 +31,6 @@
 		limitLeft: 10,
 		limitRight: 10,
 		onClick: function () {
-		  console.log("点击滑块！")
+			console.log("点击滑块！")
 		}
-	})
+     })
