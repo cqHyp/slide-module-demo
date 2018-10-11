@@ -9,13 +9,13 @@
 举例div2为滑动模块，必需是相对于浏览器的绝对定位
 
     .slide-wrapper {
-		width: 60px;
-		height: 60px;
-		border-radius: 50%;
-		border: 1px solid rgba(0, 0, 0, 0.1);
-		position: fixed;
-		right: 10px;
-		bottom: 30%;
+	 width: 60px;
+	 height: 60px;
+	 border-radius: 50%;
+	 border: 1px solid rgba(0, 0, 0, 0.1);
+	 position: fixed;
+	 right: 10px;
+	 bottom: 30%;
      }
 **js** 代码如下:
 
@@ -25,14 +25,14 @@
 2.初始化
 
     new slideModule({
-	container: "div2",
-	limitTop: 50,
-	limitBottom: 50,
-	limitLeft: 10,
-	limitRight: 10,
-	onClick: function () {
-		console.log("点击滑块！")
-	}
+	 container: "div2",
+	 limitTop: 50,
+	 limitBottom: 50,
+	 limitLeft: 10,
+	 limitRight: 10,
+	 onClick: function () {
+		 console.log("点击滑块！")
+	 }
      })
 
 	// container: 元素id
