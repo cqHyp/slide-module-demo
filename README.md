@@ -25,12 +25,19 @@
 2.初始化
 
     new slideModule({
-		container: "div2",
-		limitTop: 50,
-		limitBottom: 50,
-		limitLeft: 10,
-		limitRight: 10,
-		onClick: function () {
-			console.log("点击滑块！")
-		}
+	container: "div2",
+	limitTop: 50,
+	limitBottom: 50,
+	limitLeft: 10,
+	limitRight: 10,
+	onClick: function () {
+		console.log("点击滑块！")
+	}
      })
+
+	// container: 元素id
+	// limitTop: 能触及的最顶部高度
+	// limitBottom: 能触及的最底部高度
+	// limitLeft: 最左侧悬停距离
+	// limitRight: 最右侧悬停距离
+	// onClick: 元素点击事件
