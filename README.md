@@ -1,5 +1,7 @@
 # slide-module-demo
-点击查看 [demo](http://cqhpoldi.com/slide-module-demo/slide-module-demo.html)
+点击查看 [demo](https://cqhpoldi.com/slide-module-demo/slide-module-demo.html)
+
+博客地址 [click](https://cqhpoldi.com/wordpress/archives/366)
 
 **html** 代码如下:
 
