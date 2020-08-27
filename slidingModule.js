@@ -34,7 +34,7 @@
         if (event.cancelable) {
           // 判断默认行为是否已经被禁用
           if (!event.defaultPrevented) {
-            event.preventDefault();
+            // event.preventDefault();
           }
         }
         down(v.container);
@@ -44,7 +44,7 @@
         if (event.cancelable) {
           // 判断默认行为是否已经被禁用
           if (!event.defaultPrevented) {
-            event.preventDefault();
+            // event.preventDefault();
           }
         }
         firstTime = new Date().getTime();
@@ -55,7 +55,7 @@
         if (event.cancelable) {
           // 判断默认行为是否已经被禁用
           if (!event.defaultPrevented) {
-            event.preventDefault();
+            // event.preventDefault();
           }
         }
         move(v.container, v.limitTop, v.limitBottom);
@@ -66,7 +66,7 @@
         if (event.cancelable) {
           // 判断默认行为是否已经被禁用
           if (!event.defaultPrevented) {
-            event.preventDefault();
+            // event.preventDefault();
           }
         }
         move(v.container, v.limitTop, v.limitBottom);
@@ -157,7 +157,7 @@
       }
       //阻止页面的滑动默认事件
       document.addEventListener("touchmove", function () {
-        event.preventDefault();
+        // event.preventDefault();
       }, false);
     }
   }
